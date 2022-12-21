@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Heading dan Paragraph</title>
+    <style>
+        /* internal css */
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #paragraph{
+            font-size: 24px;
+            border: 1px solid black;
+            
+        }
+
+        #kiri {
+            text-align: left;
+        }
+
+        #kanan {
+            text-align: right;
+           
+        }
+
+        #tengah {
+            text-align: center;
+            
+        }
+
+        #heading{
+            color: blueviolet;
+            border: 2px solid black;
+            margin-bottom: 12px;
+        }
+        #paragraph span{
+            display: inline;
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <h1>Ini heading 1</h1>
+        <h2>Ini heading 2</h2>
+        <h3>Ini heading 3</h3>
+        <h4>Ini heading 4</h4>
+        <h5>Ini heading 5</h5> 
+    </div>
+    <div id="paragraph">
+        <p id="kiri">Lorem ipsum dolor sit amet. <span>align left</span></p>
+        <p id="kanan">Lorem ipsum dolor sit amet consectetur. <span>align right</span></p>
+        <p id="tengah">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, a. <span>align center</span></p>
+        <!-- inline css -->
+        <p id="rata" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique expedita quo ipsa! <span>align justify</span></p>
+    </div>
+</body>
+</html>
